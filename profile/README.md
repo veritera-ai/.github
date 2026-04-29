@@ -1,48 +1,40 @@
-<h3 align="center">ROAM — Republic of Autonomous Machines</h3>
+<h3 align="center">Veritera Corporation</h3>
 
 <p align="center">
-  Your AI agents don't coordinate. ROAM makes them a team.
+  <strong>Trustless infrastructure for autonomous systems.</strong>
   <br>
-  Cross-framework. File-based. Zero tokens burned on coordination.
-  <br><br>
-  <a href="https://github.com/veritera-ai/roam"><strong>Get ROAM &rarr;</strong></a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://roam.veritera.ai"><strong>Website</strong></a>
-  &nbsp;&middot;&nbsp;
-  <a href="https://roam.veritera.ai/docs/quickstart"><strong>Quick Start</strong></a>
+  Content-blind behavioral intelligence — from AI agents to robots to power plants.
 </p>
 
 ---
 
-Claude doesn't know what GPT is doing. Cursor can't see Gemini's output. You're the bottleneck — copying context between tools that were never built to work together.
+### ROAM — Republic of Autonomous Machines
 
-**ROAM** connects agents across any framework into a single governed team. Shared tasks, automatic handoffs, cost tracking, drift detection, and behavioral verification — all through the file system. Zero tokens. Zero cloud dependency.
+The coordination layer for multi-agent organizations. Your AI agents run in different tools — Claude Code, Cursor, GPT, n8n, Gemini, local models. ROAM connects them into a single governed team through the file system. Shared tasks, automatic handoffs, drift detection, and behavioral verification. Zero LLM tokens spent on coordination.
 
 ```sh
-curl -fsSL roam.veritera.ai | sh
+npm install -g @veritera.ai/roam
 ```
 
-Free up to 5 agent frameworks. Hundreds of agents. Unlimited projects.
+<a href="https://github.com/veritera-ai/roam"><strong>GitHub</strong></a> · <a href="https://www.npmjs.com/package/@veritera.ai/roam"><strong>npm</strong></a> · <a href="https://roam.veritera.ai"><strong>Website</strong></a>
 
-### Protected by EYDII
+### EYDII — The Trust Layer
 
-Every ROAM installation ships with **EYDII** — the trust layer for autonomous systems. Content-blind behavioral monitoring that watches what agents do, never what they see. Drift detection. Trust scoring. Automatic replacement of unhealthy agents. Mathematical verification, not inspection.
+Content-blind behavioral intelligence for autonomous systems. EYDII monitors what agents **do** — action types, timing, frequency, behavioral patterns — without ever seeing what they say, produce, or access. Mathematical proof that behavior matches intent.
 
-<a href="https://id.veritera.ai">Learn more about EYDII &rarr;</a>
+Available as SDKs and framework adapters for every major agent framework.
 
-### EYDII Framework Integrations
+```sh
+npm install @veritera.ai/eydii        # JavaScript / TypeScript
+pip install veritera                    # Python
+```
 
-| | Package | Install |
-|-|---------|---------|
-| **Python** | [eydii-python](https://github.com/veritera-ai/eydii-python) | `pip install veritera` |
-| **TypeScript** | [eydii-js](https://github.com/veritera-ai/eydii-js) | `npm install @veritera.ai/eydii-verify` |
-| **LangChain** | [eydii-langchain](https://github.com/veritera-ai/eydii-langchain) | `pip install langchain-eydii` |
-| **MCP** | [eydii-mcp-server](https://github.com/veritera-ai/eydii-mcp-server) | Claude Code, Cowork, ChatGPT, Cursor |
-
-[**13 framework integrations**](https://github.com/veritera-ai/eydii-python#13-framework-integrations) including OpenAI, CrewAI, LlamaIndex, n8n, Mastra, Google ADK, Agno, and Pydantic AI.
+<a href="https://github.com/veritera-ai/eydii"><strong>GitHub</strong></a> · <a href="https://www.npmjs.com/package/@veritera.ai/eydii"><strong>npm</strong></a> · <a href="https://pypi.org/project/veritera/"><strong>PyPI</strong></a> · <a href="https://id.veritera.ai"><strong>Platform</strong></a>
 
 ---
 
 <p align="center">
-  <a href="https://roam.veritera.ai">ROAM</a> &middot; <a href="https://id.veritera.ai">EYDII</a> &middot; <a href="https://id.veritera.ai">Veritera Corporation</a>
+  <a href="https://veritera.ai">veritera.ai</a> · <a href="https://roam.veritera.ai">roam.veritera.ai</a> · <a href="https://id.veritera.ai">id.veritera.ai</a>
+  <br><br>
+  <sub>© 2024-2026 Veritera Corporation. All rights reserved.</sub>
 </p>
